@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="dark_theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#7FA4E6</item>
+        <item name="android:textColor">#000</item>/>
+        <item name="android:background">#E3E3E3</item>
+        <item name="android:buttonStyle">@style/btnStyle</item>
+        <item name="actionBarTheme">@style/actionBar</item>
+    </style>
+
+    <style name="btnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#000</item>/>
+        <item name="android:background">@drawable/my_btn</item>
+    </style>
+
+    <style name="actionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+</resources>
